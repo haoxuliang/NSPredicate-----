@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C000FF01759A22400CB1A4E /* HXLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C000FEF1759A22400CB1A4E /* HXLPerson.m */; };
+		A242782717583D1B005109DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A242782617583D1B005109DB /* UIKit.framework */; };
+		A242782917583D1B005109DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A242782817583D1B005109DB /* Foundation.framework */; };
+		A242782B17583D1B005109DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A242782A17583D1B005109DB /* CoreGraphics.framework */; };
+		A242783117583D1B005109DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A242782F17583D1B005109DB /* InfoPlist.strings */; };
+		A242783317583D1B005109DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A242783217583D1B005109DB /* main.m */; };
+		A242783717583D1B005109DB /* HXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A242783617583D1B005109DB /* HXLAppDelegate.m */; };
+		A242783917583D1B005109DB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A242783817583D1B005109DB /* Default.png */; };
+		A242783B17583D1B005109DB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A242783A17583D1B005109DB /* Default@2x.png */; };
+		A242783D17583D1B005109DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A242783C17583D1B005109DB /* Default-568h@2x.png */; };
+		A242787817584E2F005109DB /* HXLArrayFilteredVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A242786417584E2F005109DB /* HXLArrayFilteredVC.m */; };
+		A242787917584E2F005109DB /* HXLArrayFilteredVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A242786517584E2F005109DB /* HXLArrayFilteredVC.xib */; };
+		A242787A17584E2F005109DB /* HXLBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A242786817584E2F005109DB /* HXLBaseVC.m */; };
+		A242787B17584E2F005109DB /* HXLRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A242786A17584E2F005109DB /* HXLRootVC.m */; };
+		A242787C17584E2F005109DB /* HXLRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A242786B17584E2F005109DB /* HXLRootVC.xib */; };
+		A242787D17584E2F005109DB /* HXLObjectMatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A242786E17584E2F005109DB /* HXLObjectMatchVC.m */; };
+		A242787E17584E2F005109DB /* HXLObjectMatchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A242786F17584E2F005109DB /* HXLObjectMatchVC.xib */; };
+		A242787F17584E2F005109DB /* HXLRegexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A242787217584E2F005109DB /* HXLRegexVC.m */; };
+		A242788017584E2F005109DB /* HXLRegexVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A242787317584E2F005109DB /* HXLRegexVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C000FEE1759A22400CB1A4E /* HXLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLPerson.h; sourceTree = "<group>"; };
+		2C000FEF1759A22400CB1A4E /* HXLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLPerson.m; sourceTree = "<group>"; };
+		A242782317583D1B005109DB /* HXLPredicateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXLPredicateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A242782617583D1B005109DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A242782817583D1B005109DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A242782A17583D1B005109DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A242782E17583D1B005109DB /* HXLPredicateTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HXLPredicateTest-Info.plist"; sourceTree = "<group>"; };
+		A242783017583D1B005109DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A242783217583D1B005109DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A242783417583D1B005109DB /* HXLPredicateTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXLPredicateTest-Prefix.pch"; sourceTree = "<group>"; };
+		A242783517583D1B005109DB /* HXLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXLAppDelegate.h; sourceTree = "<group>"; };
+		A242783617583D1B005109DB /* HXLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLAppDelegate.m; sourceTree = "<group>"; };
+		A242783817583D1B005109DB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A242783A17583D1B005109DB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A242783C17583D1B005109DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A242786317584E2F005109DB /* HXLArrayFilteredVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLArrayFilteredVC.h; sourceTree = "<group>"; };
+		A242786417584E2F005109DB /* HXLArrayFilteredVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLArrayFilteredVC.m; sourceTree = "<group>"; };
+		A242786517584E2F005109DB /* HXLArrayFilteredVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXLArrayFilteredVC.xib; sourceTree = "<group>"; };
+		A242786717584E2F005109DB /* HXLBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLBaseVC.h; sourceTree = "<group>"; };
+		A242786817584E2F005109DB /* HXLBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLBaseVC.m; sourceTree = "<group>"; };
+		A242786917584E2F005109DB /* HXLRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLRootVC.h; sourceTree = "<group>"; };
+		A242786A17584E2F005109DB /* HXLRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLRootVC.m; sourceTree = "<group>"; };
+		A242786B17584E2F005109DB /* HXLRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXLRootVC.xib; sourceTree = "<group>"; };
+		A242786D17584E2F005109DB /* HXLObjectMatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLObjectMatchVC.h; sourceTree = "<group>"; };
+		A242786E17584E2F005109DB /* HXLObjectMatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLObjectMatchVC.m; sourceTree = "<group>"; };
+		A242786F17584E2F005109DB /* HXLObjectMatchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXLObjectMatchVC.xib; sourceTree = "<group>"; };
+		A242787117584E2F005109DB /* HXLRegexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLRegexVC.h; sourceTree = "<group>"; };
+		A242787217584E2F005109DB /* HXLRegexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLRegexVC.m; sourceTree = "<group>"; };
+		A242787317584E2F005109DB /* HXLRegexVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXLRegexVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A242782017583D1B005109DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A242782717583D1B005109DB /* UIKit.framework in Frameworks */,
+				A242782917583D1B005109DB /* Foundation.framework in Frameworks */,
+				A242782B17583D1B005109DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A242781A17583D1B005109DB = {
+			isa = PBXGroup;
+			children = (
+				A242782C17583D1B005109DB /* HXLPredicateTest */,
+				A242782517583D1B005109DB /* Frameworks */,
+				A242782417583D1B005109DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A242782417583D1B005109DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A242782317583D1B005109DB /* HXLPredicateTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A242782517583D1B005109DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A242782617583D1B005109DB /* UIKit.framework */,
+				A242782817583D1B005109DB /* Foundation.framework */,
+				A242782A17583D1B005109DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A242782C17583D1B005109DB /* HXLPredicateTest */ = {
+			isa = PBXGroup;
+			children = (
+				A242783517583D1B005109DB /* HXLAppDelegate.h */,
+				A242783617583D1B005109DB /* HXLAppDelegate.m */,
+				A242785F17584E2F005109DB /* Common */,
+				A242786117584E2F005109DB /* ViewController */,
+				A242782D17583D1B005109DB /* Supporting Files */,
+			);
+			path = HXLPredicateTest;
+			sourceTree = "<group>";
+		};
+		A242782D17583D1B005109DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A242782E17583D1B005109DB /* HXLPredicateTest-Info.plist */,
+				A242782F17583D1B005109DB /* InfoPlist.strings */,
+				A242783217583D1B005109DB /* main.m */,
+				A242783417583D1B005109DB /* HXLPredicateTest-Prefix.pch */,
+				A242783817583D1B005109DB /* Default.png */,
+				A242783A17583D1B005109DB /* Default@2x.png */,
+				A242783C17583D1B005109DB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A242785F17584E2F005109DB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A242786017584E2F005109DB /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A242786017584E2F005109DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A242786117584E2F005109DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A242786617584E2F005109DB /* BaseView */,
+				A242786217584E2F005109DB /* ArrayFiltered */,
+				A242786C17584E2F005109DB /* ObjectMatch */,
+				A242787017584E2F005109DB /* Regex */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A242786217584E2F005109DB /* ArrayFiltered */ = {
+			isa = PBXGroup;
+			children = (
+				A242786317584E2F005109DB /* HXLArrayFilteredVC.h */,
+				A242786417584E2F005109DB /* HXLArrayFilteredVC.m */,
+				A242786517584E2F005109DB /* HXLArrayFilteredVC.xib */,
+			);
+			path = ArrayFiltered;
+			sourceTree = "<group>";
+		};
+		A242786617584E2F005109DB /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				A242786717584E2F005109DB /* HXLBaseVC.h */,
+				A242786817584E2F005109DB /* HXLBaseVC.m */,
+				A242786917584E2F005109DB /* HXLRootVC.h */,
+				A242786A17584E2F005109DB /* HXLRootVC.m */,
+				A242786B17584E2F005109DB /* HXLRootVC.xib */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		A242786C17584E2F005109DB /* ObjectMatch */ = {
+			isa = PBXGroup;
+			children = (
+				A242786D17584E2F005109DB /* HXLObjectMatchVC.h */,
+				A242786E17584E2F005109DB /* HXLObjectMatchVC.m */,
+				A242786F17584E2F005109DB /* HXLObjectMatchVC.xib */,
+				2C000FEE1759A22400CB1A4E /* HXLPerson.h */,
+				2C000FEF1759A22400CB1A4E /* HXLPerson.m */,
+			);
+			path = ObjectMatch;
+			sourceTree = "<group>";
+		};
+		A242787017584E2F005109DB /* Regex */ = {
+			isa = PBXGroup;
+			children = (
+				A242787117584E2F005109DB /* HXLRegexVC.h */,
+				A242787217584E2F005109DB /* HXLRegexVC.m */,
+				A242787317584E2F005109DB /* HXLRegexVC.xib */,
+			);
+			path = Regex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A242782217583D1B005109DB /* HXLPredicateTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A242784017583D1B005109DB /* Build configuration list for PBXNativeTarget "HXLPredicateTest" */;
+			buildPhases = (
+				A242781F17583D1B005109DB /* Sources */,
+				A242782017583D1B005109DB /* Frameworks */,
+				A242782117583D1B005109DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXLPredicateTest;
+			productName = HXLPredicateTest;
+			productReference = A242782317583D1B005109DB /* HXLPredicateTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A242781B17583D1B005109DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HXL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LeoHao;
+			};
+			buildConfigurationList = A242781E17583D1B005109DB /* Build configuration list for PBXProject "HXLPredicateTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A242781A17583D1B005109DB;
+			productRefGroup = A242782417583D1B005109DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A242782217583D1B005109DB /* HXLPredicateTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A242782117583D1B005109DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A242783117583D1B005109DB /* InfoPlist.strings in Resources */,
+				A242783917583D1B005109DB /* Default.png in Resources */,
+				A242783B17583D1B005109DB /* Default@2x.png in Resources */,
+				A242783D17583D1B005109DB /* Default-568h@2x.png in Resources */,
+				A242787917584E2F005109DB /* HXLArrayFilteredVC.xib in Resources */,
+				A242787C17584E2F005109DB /* HXLRootVC.xib in Resources */,
+				A242787E17584E2F005109DB /* HXLObjectMatchVC.xib in Resources */,
+				A242788017584E2F005109DB /* HXLRegexVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A242781F17583D1B005109DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A242783317583D1B005109DB /* main.m in Sources */,
+				A242783717583D1B005109DB /* HXLAppDelegate.m in Sources */,
+				A242787817584E2F005109DB /* HXLArrayFilteredVC.m in Sources */,
+				A242787A17584E2F005109DB /* HXLBaseVC.m in Sources */,
+				A242787B17584E2F005109DB /* HXLRootVC.m in Sources */,
+				A242787D17584E2F005109DB /* HXLObjectMatchVC.m in Sources */,
+				A242787F17584E2F005109DB /* HXLRegexVC.m in Sources */,
+				2C000FF01759A22400CB1A4E /* HXLPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A242782F17583D1B005109DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A242783017583D1B005109DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A242783E17583D1B005109DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A242783F17583D1B005109DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A242784117583D1B005109DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HXLPredicateTest/HXLPredicateTest-Prefix.pch";
+				INFOPLIST_FILE = "HXLPredicateTest/HXLPredicateTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A242784217583D1B005109DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HXLPredicateTest/HXLPredicateTest-Prefix.pch";
+				INFOPLIST_FILE = "HXLPredicateTest/HXLPredicateTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A242781E17583D1B005109DB /* Build configuration list for PBXProject "HXLPredicateTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A242783E17583D1B005109DB /* Debug */,
+				A242783F17583D1B005109DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A242784017583D1B005109DB /* Build configuration list for PBXNativeTarget "HXLPredicateTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A242784117583D1B005109DB /* Debug */,
+				A242784217583D1B005109DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A242781B17583D1B005109DB /* Project object */;
+}
